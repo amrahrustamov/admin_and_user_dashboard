@@ -19,7 +19,7 @@ body {
             justify-content: center;
             align-items: center;
             background-color: cornsilk;
-            border: 1px solid black;
+            border: 1px solid rgba(0, 0, 0, 0.178);
             border-radius: 4px;
 
             .entrySections {
@@ -32,12 +32,12 @@ body {
                 .linkOfRegister{
                     height: 30px;
                     width: 130px;
-                    margin-top: 10px;
+                    margin-top: 30px;
                 }
                 .findPassword{
                     height: 30px;
                     width: 130px;
-                    margin-top: 10px;
+                    margin-top: 30px;
                 }
 
                 .textOfLogin {
