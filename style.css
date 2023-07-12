@@ -3,15 +3,17 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-body .entry {
+
+.entry {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
+  display: none;
 }
-body .entry .logInAndRegister {
+.entry .logInAndRegister {
   height: 300px;
   width: 500px;
   display: flex;
@@ -22,33 +24,33 @@ body .entry .logInAndRegister {
   border: 1px solid rgba(0, 0, 0, 0.178);
   border-radius: 4px;
 }
-body .entry .logInAndRegister .entrySections {
+.entry .logInAndRegister .entrySections {
   height: 100px;
   width: 500px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-body .entry .logInAndRegister .entrySections .linkOfRegister {
+.entry .logInAndRegister .entrySections .linkOfRegister {
   height: 30px;
   width: 130px;
   margin-top: 30px;
 }
-body .entry .logInAndRegister .entrySections .findPassword {
+.entry .logInAndRegister .entrySections .findPassword {
   height: 30px;
   width: 130px;
   margin-top: 30px;
 }
-body .entry .logInAndRegister .entrySections .textOfLogin {
+.entry .logInAndRegister .entrySections .textOfLogin {
   font-size: 50px;
   text-align: center;
   color: rgba(0, 128, 0, 0.61);
 }
-body .entry .logInAndRegister .entrySections .rightEntrySec {
+.entry .logInAndRegister .entrySections .rightEntrySec {
   display: flex;
   align-items: center;
 }
-body .entry .logInAndRegister .entrySections .rightEntrySec button {
+.entry .logInAndRegister .entrySections .rightEntrySec button {
   height: 50px;
   width: 100px;
   margin-left: 20px;
@@ -57,19 +59,116 @@ body .entry .logInAndRegister .entrySections .rightEntrySec button {
   background-color: rgba(165, 42, 42, 0.808);
   color: white;
 }
-body .entry .logInAndRegister .entrySections .leftEntrySec {
+.entry .logInAndRegister .entrySections .leftEntrySec {
   display: flex;
   flex-direction: column;
 }
-body .entry .logInAndRegister .entrySections .leftEntrySec .boxOfEmailPassword {
+.entry .logInAndRegister .entrySections .leftEntrySec .boxOfEmailPassword {
   height: 50px;
   width: 100%;
   justify-content: center;
   display: flex;
   justify-content: center;
 }
-body .entry .logInAndRegister .entrySections .leftEntrySec .boxOfEmailPassword input {
+.entry .logInAndRegister .entrySections .leftEntrySec .boxOfEmailPassword input {
   width: 90%;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+body .register {
+  height: 50vh;
+  width: 500px;
+  margin-top: 100px;
+  background-color: rgba(243, 180, 62, 0.623);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  display: none;
+}
+body .register .boxes {
+  height: 11%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .register .boxes .img {
+  height: 60px;
+  width: 200px;
+}
+body .register .boxes .img img {
+  height: 100%;
+  width: 100%;
+}
+body .register .boxes p {
+  font-size: 40px;
+  color: rgb(75, 165, 138);
+}
+body .register .boxes .boxOfInput {
+  height: 60%;
+  width: 70%;
+  border-radius: 5px;
+}
+body .register .boxes .boxOfInput input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+body .register .boxes button {
+  border-radius: 5px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-size: 30px;
+  background-color: red;
+  color: white;
+}
+
+.adminPanel {
+  height: 1000px;
+  width: 100%;
+  background-color: aqua;
+  display: none;
+}
+.adminPanel .header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0, 255, 128);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adminPanel .header .headerParts {
+  border: 1px solid black;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.adminPanel .header .headerParts .boxesOfLeftPart {
+  border: 1px solid black;
+  height: 90%;
+}
+.adminPanel .header .headerParts .boxesOfLeftPart a {
+  height: 100%;
+  width: 100%;
+}
+.adminPanel .header .headerParts .boxesOfLeftPart a img {
+  height: 100%;
+  width: 100%;
+}
+.adminPanel .header .headerParts .inputAndButton {
+  height: 90%;
+  width: 90%;
+  border: 1px solid black;
 }/*# sourceMappingURL=style.css.map */
