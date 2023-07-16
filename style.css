@@ -93,7 +93,7 @@ body .register {
   display: none;
 }
 body .register .boxes {
-  height: 11%;
+  height: 12%;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -137,6 +137,7 @@ body .register .boxes button {
   height: 1000px;
   width: 100%;
   background-color: aqua;
+  display: none;
 }
 .adminPanel .header {
   height: 80px;
@@ -147,7 +148,6 @@ body .register .boxes button {
   align-items: center;
 }
 .adminPanel .header .headerParts {
-  border: 1px solid black;
   height: 80%;
   display: flex;
   flex-direction: row;
@@ -155,7 +155,6 @@ body .register .boxes button {
   justify-content: center;
 }
 .adminPanel .header .headerParts .boxesOfLeftPart {
-  border: 1px solid black;
   height: 90%;
   display: flex;
   align-items: center;
@@ -202,4 +201,113 @@ body .register .boxes button {
   border-left: 1px solid rgb(112, 111, 111);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+.adminPanel .header .headerParts .boxesRightPart {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.adminPanel .header .headerParts .boxesRightPart a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.adminPanel .header .headerParts .boxesRightPart a img {
+  width: 70%;
+  height: 90%;
+}
+.adminPanel .header .headerParts .boxesRightPart a p {
+  font-size: 10px;
+}
+
+.usersPanel {
+  height: 1000px;
+  width: 100%;
+  background-color: aqua;
+}
+.usersPanel .header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0, 255, 128);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.usersPanel .header .headerParts {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.usersPanel .header .headerParts .boxesOfLeftPart {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.usersPanel .header .headerParts .boxesOfLeftPart a {
+  height: 100%;
+  width: 100%;
+}
+.usersPanel .header .headerParts .boxesOfLeftPart a img {
+  height: 100%;
+  width: 100%;
+}
+.usersPanel .header .headerParts .boxesOfLeftPart b {
+  font-size: 20px;
+}
+.usersPanel .header .headerParts .input {
+  height: 90%;
+  width: 60%;
+  border: 1px solid rgb(202, 200, 200);
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.usersPanel .header .headerParts .input input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.usersPanel .header .headerParts .button {
+  height: 90%;
+  width: 10%;
+  border: 1px solid rgb(202, 200, 200);
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.usersPanel .header .headerParts .button button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-left: 1px solid rgb(112, 111, 111);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.usersPanel .header .headerParts .boxesRightPart {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.usersPanel .header .headerParts .boxesRightPart a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.usersPanel .header .headerParts .boxesRightPart a img {
+  width: 70%;
+  height: 90%;
+}
+.usersPanel .header .headerParts .boxesRightPart a p {
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */
