@@ -226,7 +226,7 @@ body .register .boxes button {
 .usersPanel {
   height: 1000px;
   width: 100%;
-  background-color: aqua;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -321,6 +321,7 @@ body .register .boxes button {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 .usersPanel .parentOfAddBlog .childOfAddBlog {
   height: 95%;
@@ -372,4 +373,77 @@ body .register .boxes button {
   background-color: green;
   color: white;
   border-radius: 4px;
+}
+.usersPanel .parentMessages {
+  height: 90vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes {
+  height: 5%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .readMessageButton {
+  height: 90%;
+  width: 30%;
+  background-color: rgb(231, 100, 24);
+  border-radius: 4px;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .readMessageButton a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .readMessageButton a img {
+  height: 30px;
+  width: 30px;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .writeMessageButton {
+  height: 90%;
+  width: 30%;
+  background-color: rgb(231, 100, 24);
+  border-radius: 4px;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .writeMessageButton a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: black;
+}
+.usersPanel .parentMessages .choiseReadAndWriteMes .writeMessageButton a img {
+  height: 30px;
+  width: 30px;
+}
+.usersPanel .parentMessages .readMessages {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usersPanel .parentMessages .readMessages b {
+  display: inline-flex;
+  background-color: white;
+  width: 50%;
+  border: none;
+}
+.usersPanel .parentMessages .readMessages p {
+  display: inline-flex;
+  background-color: white;
+  width: 90%;
+  border: none;
+}
+.usersPanel .parentMessages .readMessages i {
+  display: inline-flex;
+  background-color: white;
+  width: 20%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
